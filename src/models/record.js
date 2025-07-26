@@ -11,7 +11,7 @@ const recordSchema = new mongoose.Schema({
     required: true,
   },
   dateStolen: {
-    type: Date,
+    type: String,
     required: true,
   },
   description: {
